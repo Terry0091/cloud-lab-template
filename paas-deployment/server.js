@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.status(200).json({
-    status: 'Success: Automated CI/CD triggered.',
+    status: 'Success: CI/CD Pipeline Verified by Thu Ta Lin (2500IT10005).',
     environment: ENV,
     timestamp: new Date().toISOString()
   });
